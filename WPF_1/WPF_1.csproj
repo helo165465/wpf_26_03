@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="baixados %281%29.jpeg" />
+    <None Remove="baixados %282%29.jpeg" />
+    <None Remove="baixados %283%29.jpeg" />
+    <None Remove="Download premium vector of Modern silver geometric pattern on a black background vector by Kappy about silver gradient, gradient background, silver black background, gradient black white, and black silver 931883.jpeg" />
+    <None Remove="minimalism-technology-cloud.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="baixados (1).jpeg" />
+    <Resource Include="baixados (2).jpeg" />
+    <Resource Include="baixados (3).jpeg" />
+    <Resource Include="Download premium vector of Modern silver geometric pattern on a black background vector by Kappy about silver gradient, gradient background, silver black background, gradient black white, and black silver 931883.jpeg" />
+    <Resource Include="minimalism-technology-cloud.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="imagem\" />
+  </ItemGroup>
+
+</Project>
